@@ -1,0 +1,12 @@
+get buildroot from svn:
+svn co svn://svn.openwrt.org/openwrt/branches/attitude_adjustment
+
+install libusb
+cd attitude_adjustment
+./scripts/feeds update -a
+./scripts/feeds install libusb
+
+copy "keene" directory to ./package
+select package under "Utilities"
+
+run make V=99
