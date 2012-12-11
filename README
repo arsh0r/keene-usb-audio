@@ -1,3 +1,6 @@
+11.12.2012
+since kernel 3.4 v4l supports the keene FM transmitter. OpenWrt 12.09 comes with 3.3.8 so i use this neat tool. in germany the device is sold under the brand of "p-line"
+
 v0.2 18/01/2011
 
 Keene Electronics sell a little USB FM Transmitter, the audio part of which works out of the box with linux, but the applet supplied to do the radio stuff only works with Windows. See:
